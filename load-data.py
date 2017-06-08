@@ -3,8 +3,8 @@ import pandas
 import oandapy
 
 ## Load Data from Oanda
-# Set Environment and Access Token for Oanda
-oanda = oandapy.API(environment="live", access_token="b0c3e70fcba9906d65a89f20ff8c7f2d-d7877874ee7b4a3fa8d157095e40c370")
+# Set Environment and Access Token for Oanda - Can Accept "live" or "practice" As Envioronment
+oanda = oandapy.API(environment="live", access_token="Access Token Goes Here")
 # Set Pair, Timeframe and Number of Bars to Grab from Oanda
 pair = "EUR_USD"
 granularity = "D"
